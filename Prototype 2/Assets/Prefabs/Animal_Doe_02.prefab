@@ -592,6 +592,10 @@ GameObject:
   - component: {fileID: 889611656345215671}
   - component: {fileID: 889611656338312675}
   - component: {fileID: 889611657183373863}
+  - component: {fileID: 3002748951513629448}
+  - component: {fileID: 1554016995584393498}
+  - component: {fileID: 1324349489}
+  - component: {fileID: 2597610603819530900}
   m_Layer: 0
   m_Name: Animal_Doe_02
   m_TagString: Untagged
@@ -655,6 +659,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!114 &3002748951513629448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889611656345475125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c0520dcf252506478716b3e021edefa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1554016995584393498
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889611656345475125}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2613719, y: 0.40173283, z: 0.56767505}
+  m_Center: {x: 0.0022336484, y: 0.1735848, z: 0.03134823}
+--- !u!114 &1324349489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889611656345475125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c0520dcf252506478716b3e021edefa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2597610603819530900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889611656345475125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a7dab1e1d79d34fb4c367f71555be0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &889611656345539531
 GameObject:
   m_ObjectHideFlags: 0
